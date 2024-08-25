@@ -1,0 +1,45 @@
+.navbar-brand img {
+    max-height: 100%;
+    max-width: 150px;
+  }
+
+  .nav-item:last-child {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-item:last-child .search-box {
+    margin-right: 10px; /* Tetszőleges margin a keresőmező és az ikon közötti távolsághoz */
+  }
+
+  .search-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: currentColor;
+  }
+
+  .search-input {
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    font-size: 0.875rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  .search-input:focus {
+    outline: none;
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+
+  .card {
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .card-img-top {
+    height: 400px;
+    object-fit: cover;
+  }

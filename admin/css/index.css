@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00A572;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: #333333;
+
+    flex-direction: column;
+    align-items: center;
+}
+

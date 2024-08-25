@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #00A572;
+    margin: 0;
+}
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+}
+table, th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+.animal-image {
+    max-width: 100px;
+    max-height: 100px;
+}
+select, input[type='number'], input[type='text'], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    h2 {
+        font-size: 1.5em;
+        padding: 10px 0;
+    }
+    table, th, td {
+        font-size: 0.9em;
+    }
+    th, td {
+        padding: 6px;
+    }
+    .animal-image {
+        max-width: 70px;
+        max-height: 70px;
+    }
+    button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    table {
+        font-size: 0.8em;
+    }
+    th, td {
+        padding: 4px;
+    }
+    .animal-image {
+        max-width: 50px;
+        max-height: 50px;
+    }
+    button {
+        padding: 4px 8px;
+        font-size: 10px;
+    }
+    input, textarea, select {
+        font-size: 12px;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Toast üzenetek */
+.toast {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+.toast.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}

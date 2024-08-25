@@ -1,0 +1,16 @@
+#intro {
+  background-color: white; 
+  padding: 20px; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  margin-bottom:10px;
+}
+
+body {
+  background-image: url(../images/background.jpg); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; 
+}
+

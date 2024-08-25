@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00A572;
+    margin: 0;
+    padding: 0;
+}
+.manage-breeds {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.manage-breeds form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.manage-breeds form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.manage-breeds input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.manage-breeds button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.manage-breeds button:hover {
+    background-color: #45a049;
+}
+.manage-breeds ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.manage-breeds li {
+    padding: 12px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.manage-breeds .delete-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.manage-breeds .delete-btn:hover {
+    background-color: #cc0000;
+}
+@media only screen and (max-width: 600px) {
+    form {
+        display: block;
+        margin-bottom: 20px;
+    }
+    input[type="text"] {
+        width: 100%;
+    }
+}
+.manage-breeds select {
+    max-height: 200px;
+    width: 200px; 
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
