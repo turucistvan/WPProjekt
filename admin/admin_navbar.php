@@ -21,7 +21,7 @@ if (!isset($_SESSION['user_id']) || !isset($_SESSION['is_admin']) || $_SESSION['
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FCF8ED;">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F2DDD0;">
     <div class="container">
         <a class="navbar-brand" href="index.php">
         <img src="../images/logo.png" alt="Állatok Örökbefogadása" style="border-radius: 10px;">

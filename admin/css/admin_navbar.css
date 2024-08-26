@@ -1,6 +1,7 @@
 .navbar-brand img {
     max-height: 100%;
     max-width: 150px;
+    background-color: #F2DDD0;
   }
 
   .nav-item:last-child {
@@ -9,7 +10,7 @@
   }
 
   .nav-item:last-child .search-box {
-    margin-right: 10px; /* Tetszőleges margin a keresőmező és az ikon közötti távolsághoz */
+    margin-right: 10px;
   }
 
   .search-icon {

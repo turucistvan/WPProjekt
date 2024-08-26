@@ -1,6 +1,6 @@
 <?php
-require_once '../db_config.php'; // Adatbázis konfigurációs fájl betöltése
-include 'admin_navbar.php'; // Admin navigációs sáv inicializálása
+require_once '../db_config.php'; 
+include 'admin_navbar.php'; 
 
 // Handle POST requests
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
